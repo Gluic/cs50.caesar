@@ -30,7 +30,7 @@ int main (int argc, string argv [])
         if (isalpha(text[i]))
         {
             x = text[i] + k;
-            if (isalpha(x))
+            if (isalpha(x) && isupper(x) == isupper(text[i]))
                 printf ("%c",x);
             else 
             {   
